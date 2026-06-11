@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body { margin: 0; background: #000; }
+main { display: block; }
+img { border-style: none; }
+
+input {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}

@@ -1,0 +1,16 @@
+.pull-right { float: right !important; }
+.pull-left { float: left !important; }
+
+.dark-bg {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.dark-bg a { color: #ffffff; text-decoration: none; }
+.text-center { text-align: center !important; }
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

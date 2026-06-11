@@ -1,0 +1,69 @@
+.site-header {
+  width: 100%;
+  position: relative;
+  z-index: 99;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-logo {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.site-banner {
+  position: relative;
+  background: #111;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+}
+
+.site-banner-bg {
+  position: absolute;
+  top:0; left:0; width:100%; height:100%;
+  background: linear-gradient(45deg, #1f1f1f, #000);
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.site-banner-content {
+  position: relative;
+  z-index: 2;
+}
+
+.site-banner-form {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  margin: 30px auto 0;
+}
+
+/* 卡片系統設計 */
+.card {
+  position: relative;
+  background: #1c1c1c;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-center {
+  padding: 15px;
+  background: #1c1c1c;
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.text-white { color: #fff !important; }
+.button-green { background: #2ebd59; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer;}
+.form-element { width: 100%; padding: 10px; background: #222; border: 1px solid #444; color: white; border-radius: 4px; }

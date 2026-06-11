@@ -1,0 +1,28 @@
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.site-menu {
+  display: flex;
+  gap: 15px;
+}
+
+@media (max-width: 767px) {
+  .site-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  .site-menu.is-open {
+    display: flex;
+  }
+}
